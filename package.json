@@ -1,0 +1,25 @@
+{
+  "name": "desa-2-holajunior",
+  "version": "1.0.0",
+  "description": "Api desafio Hola Junior",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/francocsanchez/desafio-holajunior.git"
+  },
+  "author": "Franco Sanchez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/francocsanchez/desafio-holajunior/issues"
+  },
+  "homepage": "https://github.com/francocsanchez/desafio-holajunior#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.0"
+  }
+}
