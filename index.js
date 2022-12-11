@@ -10,6 +10,10 @@ app.use(cors());
 // TODO: Main de rutas
 const { questionRoutes } = require('./routes/Index');
 
+app.get('/', (req,res) => {
+    return res.status(200)
+        .json({ data:'Api de prueba para el desario de https://holajuniors.com/ - Desarrollado por Franco Sanchez | https://github.com/francocsanchez/desafio-holajunior' });
+})
 app.use('/api/questions', questionRoutes);
 
 app.listen(process.env.APP_PORT || 3000, () => {
